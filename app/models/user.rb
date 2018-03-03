@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
 
 has_many :books
+has_many :commentsCooment
 	
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable

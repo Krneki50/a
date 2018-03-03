@@ -1,0 +1,1404 @@
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 11:41:40 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.9) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.9) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.9) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.9) lib/rails/engine.rb:518:in `call'
+  railties (4.2.9) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.5ms)
+
+
+Started GET "/favicon.ico" for 89.142.196.87 at 2018-03-03 11:41:42 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.9) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.9) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.9) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.9) lib/rails/engine.rb:518:in `call'
+  railties (4.2.9) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/favicon.ico" for 89.142.196.87 at 2018-03-03 11:41:42 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.9) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.9) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.9) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.9) lib/rails/engine.rb:518:in `call'
+  railties (4.2.9) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.7ms)
+  [1m[36m (4.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (4.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateBooks (20180219170237)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "author" varchar, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180219170237"]]
+  [1m[35m (4.3ms)[0m  commit transaction
+Migrating to AddAttachmentImageToBooks (20180220074923)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "books" ADD "image_file_name" varchar
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "books" ADD "image_content_type" varchar[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "books" ADD "image_file_size" integer
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "books" ADD "image_updated_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20180220074923"]]
+  [1m[36m (4.4ms)[0m  [1mcommit transaction[0m
+Migrating to DeviseCreateUsers (20180302132906)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180302132906"]]
+  [1m[35m (4.2ms)[0m  commit transaction
+Migrating to AddUserIdToBooks (20180302143701)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "books" ADD "user_id" integer
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180302143701"]]
+  [1m[35m (4.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 11:41:59 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 583ms (Views: 570.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.self-007a3958ebc7b57194452f62d210554a34712196662dc070ca365046a95fa950.css?body=1" for 89.142.196.87 at 2018-03-03 11:42:00 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-a393aaca38b72b4e7634c48046f6ae5481de07ab7c31753499824709210040a0.css?body=1" for 89.142.196.87 at 2018-03-03 11:42:01 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:01 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:01 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 89.142.196.87 at 2018-03-03 11:42:01 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:02 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:02 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:02 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/favicon.ico" for 89.142.196.87 at 2018-03-03 11:42:02 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.9) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.9) lib/rails/engine.rb:518:in `call'
+  railties (4.2.9) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.9ms)
+
+
+Started GET "/favicon.ico" for 89.142.196.87 at 2018-03-03 11:42:03 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.9) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.9) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.9) lib/rails/engine.rb:518:in `call'
+  railties (4.2.9) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /usr/local/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /usr/local/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/users/sign_up" for 89.142.196.87 at 2018-03-03 11:42:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /usr/local/bundle/gems/devise-4.4.1/app/views/devise/shared/_links.html.erb (1.3ms)
+  Rendered /usr/local/bundle/gems/devise-4.4.1/app/views/devise/registrations/new.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 52ms (Views: 43.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 89.142.196.87 at 2018-03-03 11:42:13 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C+1YEZLwLWopk6h67Ovuum1c1RxGXGeZ5YX88u5N8ZVNz8wAj7XZftn/2tHhJ1jgzd5VIsQxAFa9l0ULuKiizQ==", "user"=>{"email"=>"a@a", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'a@a' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "a@a"], ["encrypted_password", "$2a$11$bfjkR.q/i/uM6rfmz29k1OUtpSaKu8KYuOjSbjYXvTx3pLDzVRS7y"], ["created_at", "2018-03-03 11:42:13.700485"], ["updated_at", "2018-03-03 11:42:13.700485"]]
+  [1m[35m (5.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2018-03-03 11:42:13.707894"], ["current_sign_in_at", "2018-03-03 11:42:13.707894"], ["last_sign_in_ip", "89.142.196.87"], ["current_sign_in_ip", "89.142.196.87"], ["sign_in_count", 1], ["updated_at", "2018-03-03 11:42:13.708680"], ["id", 1]]
+  [1m[36m (4.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://node16.codenvy.io:51957/
+Completed 302 Found in 174ms (ActiveRecord: 10.3ms)
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 11:42:14 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 89.142.196.87 at 2018-03-03 11:42:16 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered books/_form.html.erb (5.5ms)
+  Rendered books/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 48ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/books" for 89.142.196.87 at 2018-03-03 11:42:30 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"367vMZISY6Si64S8MQvy+HVWWnhbyHcEvwsBCo8tHg6ZjHsgj1eXsFKH9hc8x0Si1dTaRtmlEMvnGbjz2chNVg==", "book"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f55d4ef9c38 @tempfile=#<Tempfile:/projects/a/RackMultipart20180303-15506-1jho7v7.png>, @original_filename="login-icon.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"book[image]\"; filename=\"login-icon.png\"\r\nContent-Type: image/png\r\n">, "title"=>"a", "author"=>"b", "description"=>"c"}, "commit"=>"Create Book"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+[paperclip] Trying to link /projects/a/RackMultipart20180303-15506-1jho7v7.png to /projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png
+[paperclip] Trying to link /projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png to /projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-159t9h7.png
+Command :: file -b --mime '/projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-159t9h7.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png[0]' 2>/dev/null
+Command :: identify -format %m '/projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png[0]'
+Command :: convert '/projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png[0]' -auto-orient -resize "300x300>" '/projects/a/4affffc38dab149a94b6c9a543c1bf3720180303-15506-yg0aq3'
+[paperclip] Trying to link /projects/a/4affffc38dab149a94b6c9a543c1bf3720180303-15506-yg0aq3 to /projects/a/ebe36b67260e66539a30d971d623699320180303-15506-1ozl2yx
+Command :: identify -format '%wx%h,%[exif:orientation]' '/projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png[0]' 2>/dev/null
+Command :: identify -format %m '/projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png[0]'
+Command :: convert '/projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png[0]' -auto-orient -resize "100x100>" '/projects/a/4affffc38dab149a94b6c9a543c1bf3720180303-15506-1ehieu3'
+[paperclip] Trying to link /projects/a/4affffc38dab149a94b6c9a543c1bf3720180303-15506-1ehieu3 to /projects/a/9dc47201a59950f5ddac06df9aa9472920180303-15506-1xjgqit
+  [1m[35m (0.1ms)[0m  begin transaction
+[paperclip] Trying to link /projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-1ok9q0b.png to /projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-15r6vur.png
+Command :: file -b --mime '/projects/a/cdc3cc1fd4cea4c4554a78b2b43fddc220180303-15506-15r6vur.png'
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "books" ("title", "author", "description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "a"], ["author", "b"], ["description", "c"], ["image_file_name", "login-icon.png"], ["image_content_type", "image/png"], ["image_file_size", 16447], ["image_updated_at", "2018-03-03 11:42:30.849350"], ["user_id", 1], ["created_at", "2018-03-03 11:42:30.947602"], ["updated_at", "2018-03-03 11:42:30.947602"]]
+  [1m[35m (4.4ms)[0m  commit transaction
+Redirected to http://node16.codenvy.io:51957/books/1
+Completed 302 Found in 127ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 11:42:31 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 22ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 11:42:36 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 11:42:40 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 11:42:48 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 11:42:49 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 11:42:50 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:51 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:51 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:51 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:51 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 89.142.196.87 at 2018-03-03 11:42:51 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-a393aaca38b72b4e7634c48046f6ae5481de07ab7c31753499824709210040a0.css?body=1" for 89.142.196.87 at 2018-03-03 11:42:51 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 89.142.196.87 at 2018-03-03 11:42:51 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-007a3958ebc7b57194452f62d210554a34712196662dc070ca365046a95fa950.css?body=1" for 89.142.196.87 at 2018-03-03 11:42:52 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 11:43:41 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 11:43:42 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateComments (20180303114509)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "book_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_comments_on_book_id" ON "comments" ("book_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_book_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_book_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_comments_on_user_id" ON "comments" ("user_id")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20180303114509"]]
+  [1m[36m (4.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_comments_on_book_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_comments_on_book_id' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 11:46:03 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.1ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 70ms (Views: 67.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/books.self-007a3958ebc7b57194452f62d210554a34712196662dc070ca365046a95fa950.css?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-a393aaca38b72b4e7634c48046f6ae5481de07ab7c31753499824709210040a0.css?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 11:46:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 89.142.196.87 at 2018-03-03 11:46:05 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 11:59:06 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (9.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 248ms (Views: 234.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 89.142.196.87 at 2018-03-03 11:59:07 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 11:59:08 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 11:59:10 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (24.6ms)
+  Rendered books/show.html.erb within layouts/application (28.1ms)
+Completed 401 Unauthorized in 32ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `book_comments_path' for #<#<Class:0x0055c6ee284e60>:0x007fcefa25ae10>):
+    1: <%= form_for([@book, @book.comments.build]) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263459518020'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 11:59:53 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_form.html.erb (1.8ms)
+  Rendered books/show.html.erb within layouts/application (3.0ms)
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for(@comment) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263455359520'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.8ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:00:17 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (9.0ms)
+  Rendered books/show.html.erb within layouts/application (10.2ms)
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `book_comments_path' for #<#<Class:0x0055c6ee284e60>:0x007fcefa32f340>):
+    1: <%= form_for([@book, @book.comments.build]) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263468787800'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:01:10 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_form.html.erb (1.8ms)
+  Rendered books/show.html.erb within layouts/application (3.0ms)
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `comments' for nil:NilClass):
+    1: <%= form_for([@books, @books.comments.build]) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263471492120'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:01:21 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (1.8ms)
+  Rendered books/show.html.erb within layouts/application (3.0ms)
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `comment' for nil:NilClass):
+    1: <%= form_for([@books, @books.comment.build]) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263470090620'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.8ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:02:25 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_form.html.erb (1.9ms)
+  Rendered books/show.html.erb within layouts/application (3.0ms)
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `comment' for #<Book:0x0055c6ee2872f0>):
+    1: <%= form_for([@book, @book.comment.build]) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_47156443444160'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.9ms)
+
+
+Started GET "/" for 89.142.196.87 at 2018-03-03 12:03:03 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.2ms)[0m  SELECT "books".* FROM "books"
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.self-007a3958ebc7b57194452f62d210554a34712196662dc070ca365046a95fa950.css?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-a393aaca38b72b4e7634c48046f6ae5481de07ab7c31753499824709210040a0.css?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 89.142.196.87 at 2018-03-03 12:03:04 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:03:05 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (1.4ms)
+  Rendered books/show.html.erb within layouts/application (2.6ms)
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `comment' for #<Book:0x0055c6eced01f8>):
+    1: <%= form_for([@book, @book.comment.build]) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_47156443444160'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:06:21 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_form.html.erb (7.2ms)
+  Rendered books/show.html.erb within layouts/application (8.6ms)
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_for([@book, @book.comments.build]) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+    5: 
+  app/views/comments/_form.html.erb:2:in `block in _app_views_comments__form_html_erb___733335923703482692_70263470889540'
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263470889540'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.1ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:06:26 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (2.4ms)
+  Rendered books/show.html.erb within layouts/application (4.0ms)
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_for([@book, @book.comments.build]) do |f| %>
+    2:   <% if @comment.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+    5: 
+  app/views/comments/_form.html.erb:2:in `block in _app_views_comments__form_html_erb___733335923703482692_70263470889540'
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263470889540'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.1ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:06:42 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_form.html.erb (1.6ms)
+  Rendered books/show.html.erb within layouts/application (3.2ms)
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.1ms)
+
+SyntaxError (/projects/a/app/views/comments/_form.html.erb:31: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/comments/_form.html.erb:31: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.6ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:06:57 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (2.2ms)
+  Rendered books/show.html.erb within layouts/application (3.3ms)
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_for([@book, @book.comments.build]) do |f| %>
+    2:  
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+    5: 
+    6:       <ul>
+    7:       <% @comment.errors.full_messages.each do |message| %>
+  app/views/comments/_form.html.erb:4:in `block in _app_views_comments__form_html_erb___733335923703482692_70263455425480'
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263455425480'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:07:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_form.html.erb (2.2ms)
+  Rendered books/show.html.erb within layouts/application (3.4ms)
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <%= form_for([@book, @book.comments.build]) do |f| %>
+    2:  
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+    5: 
+    6:       <ul>
+    7:       <% @comment.errors.full_messages.each do |message| %>
+  app/views/comments/_form.html.erb:4:in `block in _app_views_comments__form_html_erb___733335923703482692_70263459610580'
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263459610580'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:07:31 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (2.3ms)
+  Rendered books/show.html.erb within layouts/application (5.3ms)
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    4:     
+    5: 
+    6:       <ul>
+    7:       <% @comment.errors.full_messages.each do |message| %>
+    8:         <li><%= message %></li>
+    9:       <% end %>
+   10:       </ul>
+  app/views/comments/_form.html.erb:7:in `block in _app_views_comments__form_html_erb___733335923703482692_70263464010660'
+  app/views/comments/_form.html.erb:1:in `_app_views_comments__form_html_erb___733335923703482692_70263464010660'
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:07:53 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered comments/_form.html.erb (0.8ms)
+  Rendered books/show.html.erb within layouts/application (2.0ms)
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.1ms)
+
+SyntaxError (/projects/a/app/views/comments/_form.html.erb:33: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/comments/_form.html.erb:33: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/books/show.html.erb:31:in `_app_views_books_show_html_erb__3775007114368323328_70263468379520'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:08:08 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (17.0ms)
+  Rendered books/show.html.erb within layouts/application (18.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/books.self-007a3958ebc7b57194452f62d210554a34712196662dc070ca365046a95fa950.css?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-a393aaca38b72b4e7634c48046f6ae5481de07ab7c31753499824709210040a0.css?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:09 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:08:34 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered comments/_form.html.erb (2.3ms)
+  Rendered books/show.html.erb within layouts/application (4.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/books.self-007a3958ebc7b57194452f62d210554a34712196662dc070ca365046a95fa950.css?body=1" for 89.142.196.87 at 2018-03-03 12:08:34 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 89.142.196.87 at 2018-03-03 12:08:34 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-a393aaca38b72b4e7634c48046f6ae5481de07ab7c31753499824709210040a0.css?body=1" for 89.142.196.87 at 2018-03-03 12:08:34 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 89.142.196.87 at 2018-03-03 12:08:34 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:35 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:35 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:35 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:35 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:35 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 89.142.196.87 at 2018-03-03 12:08:35 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:12:57 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."book_id" = ?[0m  [["book_id", 1]]
+  Rendered collection (0.0ms)
+  Rendered comments/_form.html.erb (1.3ms)
+  Rendered books/show.html.erb within layouts/application (4.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 89.142.196.87 at 2018-03-03 12:12:58 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-007a3958ebc7b57194452f62d210554a34712196662dc070ca365046a95fa950.css?body=1" for 89.142.196.87 at 2018-03-03 12:12:58 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-a393aaca38b72b4e7634c48046f6ae5481de07ab7c31753499824709210040a0.css?body=1" for 89.142.196.87 at 2018-03-03 12:12:58 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 89.142.196.87 at 2018-03-03 12:12:58 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 89.142.196.87 at 2018-03-03 12:12:58 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 89.142.196.87 at 2018-03-03 12:12:58 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:12:58 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:12:58 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 89.142.196.87 at 2018-03-03 12:12:59 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 89.142.196.87 at 2018-03-03 12:12:59 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/books/1/comments" for 89.142.196.87 at 2018-03-03 12:13:21 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/7g8k7PWs7e4k3HrBS/qfkPoEcfYZC2+CLvrB7d9s6K5mqiCrpNHo0j/A0AI41wk42qR+VoJSnFQqVL+4Zjg+g==", "comment"=>{"content"=>"sddd"}, "commit"=>"Create Comment", "book_id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("content", "book_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "sddd"], ["book_id", 1], ["created_at", "2018-03-03 12:13:21.683867"], ["updated_at", "2018-03-03 12:13:21.683867"]]
+  [1m[35m (4.2ms)[0m  commit transaction
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "comments" SET "user_id" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["user_id", 1], ["updated_at", "2018-03-03 12:13:21.690573"], ["id", 1]]
+  [1m[35m (4.1ms)[0m  commit transaction
+Redirected to 
+Completed 401 Unauthorized in 22ms (ActiveRecord: 9.1ms)
+
+NoMethodError (undefined method `comment_url' for #<CommentsController:0x007fcefa15a128>):
+  app/controllers/comments_controller.rb:33:in `block (2 levels) in create'
+  app/controllers/comments_controller.rb:31:in `create'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.2ms)
+
+
+Started POST "/books/1/comments" for 89.142.196.87 at 2018-03-03 12:14:57 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/7g8k7PWs7e4k3HrBS/qfkPoEcfYZC2+CLvrB7d9s6K5mqiCrpNHo0j/A0AI41wk42qR+VoJSnFQqVL+4Zjg+g==", "comment"=>{"content"=>"sddd"}, "commit"=>"Create Comment", "book_id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "book_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "sddd"], ["book_id", 1], ["created_at", "2018-03-03 12:14:57.260578"], ["updated_at", "2018-03-03 12:14:57.260578"]]
+  [1m[35m (4.3ms)[0m  commit transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "comments" SET "user_id" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["user_id", 1], ["updated_at", "2018-03-03 12:14:57.272527"], ["id", 2]]
+  [1m[35m (4.0ms)[0m  commit transaction
+Redirected to http://node16.codenvy.io:51957/books/1
+Completed 302 Found in 32ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:14:57 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."book_id" = ?  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (3.8ms)
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (Missing partial comments/_comment with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/projects/a/app/views"
+  * "/usr/local/bundle/gems/devise-4.4.1/app/views"
+):
+    29: 
+    30: 
+    31: <h3>KOmentarji</h3>
+    32: <%= render @book.comments %>
+    33: 
+    34: 
+    35: 
+  app/views/books/show.html.erb:32:in `_app_views_books_show_html_erb__3775007114368323328_70263470652200'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.7ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:15:40 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (2.0ms)
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    29: 
+    30: 
+    31: <h3>KOmentarji</h3>
+    32: <%= render @comments %>
+    33: 
+    34: 
+    35: 
+  app/views/books/show.html.erb:32:in `_app_views_books_show_html_erb__3775007114368323328_70263422291560'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:16:38 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (1.6ms)
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error ('nil' is not an ActiveModel-compatible object. It must implement :to_partial_path.):
+    29: 
+    30: 
+    31: <h3>KOmentarji</h3>
+    32: <%= render @comments %>
+    33: 
+    34: 
+    35: 
+  app/views/books/show.html.erb:32:in `_app_views_books_show_html_erb__3775007114368323328_70263422291560'
+
+
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/bundle/gems/actionpack-4.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.4ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:16:48 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."book_id" = ?  [["book_id", 1]]
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_form.html.erb (1.7ms)
+  Rendered books/show.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/books.self-007a3958ebc7b57194452f62d210554a34712196662dc070ca365046a95fa950.css?body=1" for 89.142.196.87 at 2018-03-03 12:16:49 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 89.142.196.87 at 2018-03-03 12:16:49 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/scaffolds.self-a393aaca38b72b4e7634c48046f6ae5481de07ab7c31753499824709210040a0.css?body=1" for 89.142.196.87 at 2018-03-03 12:16:49 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 89.142.196.87 at 2018-03-03 12:16:49 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 89.142.196.87 at 2018-03-03 12:16:49 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 89.142.196.87 at 2018-03-03 12:16:50 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafdd47c7ffd91ba25cbec128.js?body=1" for 89.142.196.87 at 2018-03-03 12:16:50 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/books.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:16:50 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 89.142.196.87 at 2018-03-03 12:16:50 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 89.142.196.87 at 2018-03-03 12:16:50 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/books/1/comments" for 89.142.196.87 at 2018-03-03 12:16:53 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5gjH/HuQnKPmq+xAnV8tVjDD4vLiqeFqu6uj59chtFegKlPtZtVotxbHnuuQk5sMkEFizGDEhqXjuRoegcTnDw==", "comment"=>{"content"=>"ssss"}, "commit"=>"Create Comment", "book_id"=>"1"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "comments" ("content", "book_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["content", "ssss"], ["book_id", 1], ["created_at", "2018-03-03 12:16:53.919917"], ["updated_at", "2018-03-03 12:16:53.919917"]]
+  [1m[36m (4.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "comments" SET "user_id" = ?, "updated_at" = ? WHERE "comments"."id" = ?  [["user_id", 1], ["updated_at", "2018-03-03 12:16:53.928118"], ["id", 3]]
+  [1m[36m (4.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://node16.codenvy.io:51957/books/1
+Completed 302 Found in 18ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:16:54 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."book_id" = ?[0m  [["book_id", 1]]
+  Rendered comments/_comment.html.erb (0.1ms)
+  Rendered comments/_form.html.erb (1.2ms)
+  Rendered books/show.html.erb within layouts/application (3.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/books/1/comments" for 89.142.196.87 at 2018-03-03 12:17:26 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zdq8JFzzeBo3+4DDjbDFqN5HYknm1YDP+N+Oiq3EEVMj+Cg1QbaMDseX8miAfHPyfsXid2S45wCgzTdz+yFCCw==", "comment"=>{"content"=>"efdsfrytg"}, "commit"=>"Create Comment", "book_id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("content", "book_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "efdsfrytg"], ["book_id", 1], ["created_at", "2018-03-03 12:17:26.431211"], ["updated_at", "2018-03-03 12:17:26.431211"]]
+  [1m[35m (4.4ms)[0m  commit transaction
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "comments" SET "user_id" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["user_id", 1], ["updated_at", "2018-03-03 12:17:26.437793"], ["id", 4]]
+  [1m[35m (4.0ms)[0m  commit transaction
+Redirected to http://node16.codenvy.io:51957/books/1
+Completed 302 Found in 14ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/books/1" for 89.142.196.87 at 2018-03-03 12:17:26 +0000
+Cannot render console from 89.142.196.87! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."book_id" = ?  [["book_id", 1]]
+  Rendered comments/_comment.html.erb (0.1ms)
+  Rendered comments/_form.html.erb (1.2ms)
+  Rendered books/show.html.erb within layouts/application (3.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
